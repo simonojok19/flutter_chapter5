@@ -13,17 +13,21 @@ class _HomeState extends State<Home> {
         title: Text('Home'),
       ),
       body: SafeArea(
-        child: Padding(
-          padding: EdgeInsets.all(16.0),
-          child: Column(
-            children: <Widget>[
-              Row(
-                children: <Widget>[],
-              )
-            ],
+        child: SingleChildScrollView(
+          child: Padding(
+            padding: EdgeInsets.all(16.0),
+            child: Column(
+              children: <Widget>[
+                Row(
+                  children: <Widget>[
+                    
+                  ]
+                )
+              ]
+            ),
           ),
         ),
-        ),
+      ),
     );
   }
 }
