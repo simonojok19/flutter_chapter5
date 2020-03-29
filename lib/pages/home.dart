@@ -25,7 +25,14 @@ class _HomeState extends State<Home> {
                       height: 40.0,
                       width: 40.0
                     ),
-                    Padding(padding: EdgeInsets.all(16.0),)
+                    Padding(padding: EdgeInsets.all(16.0),),
+                    Expanded(
+                      child: Container(
+                        color: Colors.amber,
+                        height: 40.0,
+                        width: 40.0
+                      ),
+                    )
                   ]
                 )
               ]
