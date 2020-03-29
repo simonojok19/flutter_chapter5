@@ -40,7 +40,8 @@ class _HomeState extends State<Home> {
                       width: 40.0
                     )
                   ]
-                )
+                ),
+                Padding(padding: EdgeInsets.all(16.0),)
               ]
             ),
           ),
