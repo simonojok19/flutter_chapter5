@@ -24,7 +24,8 @@ class _HomeState extends State<Home> {
                       color: Colors.yellow,
                       height: 40.0,
                       width: 40.0
-                    )
+                    ),
+                    Padding(padding: EdgeInsets.all(16.0),)
                   ]
                 )
               ]
