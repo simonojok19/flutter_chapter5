@@ -41,7 +41,12 @@ class _HomeState extends State<Home> {
                     )
                   ]
                 ),
-                Padding(padding: EdgeInsets.all(16.0),)
+                Padding(padding: EdgeInsets.all(16.0),),
+                Row(
+                  children: <Widget>[
+                    
+                  ]
+                )
               ]
             ),
           ),
