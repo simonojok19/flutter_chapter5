@@ -63,6 +63,31 @@ class _HomeState extends State<Home> {
                         Row(
                           children: <Widget>[
                             // next step we'll add more widgets
+                            CircleAvatar(
+                              backgroundColor: Colors.lightBlue,
+                              radius: 100.0,
+                              child: Stack(
+                                children: <Widget>[
+                                  Container(
+                                    height: 100.0,
+                                    width: 100.0,
+                                    color: Colors.yellow
+                                  ),
+                                  Container(
+                                    height: 60.0,
+                                    width: 60.0,
+                                    color: Colors.amber
+                                  ),
+                                  Container(
+                                    height: 40.0,
+                                    width: 40.0,
+                                    color: Colors.brown
+                                  )
+                                ],
+                              ),
+                            ),
+                            Divider(),
+                            Text('End of the Line')
                           ]
                         ),
                         Divider(),
