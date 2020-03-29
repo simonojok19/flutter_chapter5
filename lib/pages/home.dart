@@ -86,8 +86,6 @@ class _HomeState extends State<Home> {
                                 ],
                               ),
                             ),
-                            Divider(),
-                            Text('End of the Line')
                           ]
                         ),
                         Divider(),
