@@ -20,7 +20,11 @@ class _HomeState extends State<Home> {
               children: <Widget>[
                 Row(
                   children: <Widget>[
-                    
+                    Container(
+                      color: Colors.yellow,
+                      height: 40.0,
+                      width: 40.0
+                    )
                   ]
                 )
               ]
