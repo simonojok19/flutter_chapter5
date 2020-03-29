@@ -44,7 +44,12 @@ class _HomeState extends State<Home> {
                 Padding(padding: EdgeInsets.all(16.0),),
                 Row(
                   children: <Widget>[
-                    
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisSize: MainAxisSize.max,
+                      children: <Widget>[
+                      ],
+                    )
                   ]
                 )
               ]
