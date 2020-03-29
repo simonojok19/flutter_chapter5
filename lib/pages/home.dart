@@ -16,7 +16,11 @@ class _HomeState extends State<Home> {
         child: Padding(
           padding: EdgeInsets.all(16.0),
           child: Column(
-            children: <Widget>[],
+            children: <Widget>[
+              Row(
+                children: <Widget>[],
+              )
+            ],
           ),
         ),
         ),
